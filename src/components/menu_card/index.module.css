@@ -1,0 +1,50 @@
+/* 
+.menu_list {
+    flex: 3;
+    width: 20%;
+
+}
+
+.menu_list li {
+    width: 30%;
+}
+
+.menu_list img {
+    width: 180px;
+}
+
+
+.menu_list ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu_list h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.menu_list h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.menu_list p {
+    text-align: center;
+}
+ */
+
+/* // */
+
+.menucard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menucard li {
+    width: 100%;
+}

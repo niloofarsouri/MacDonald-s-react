@@ -1,0 +1,15 @@
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.nav_menu img {
+    flex: 1;
+    width: 100%;
+}
+
+.nav_menu p {
+    flex: 1;
+}

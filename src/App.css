@@ -1,0 +1,11 @@
+body {
+    margin: auto;
+    direction: ltr;
+    box-sizing: border-box;
+}
+
+body a {
+    text-decoration: none;
+    padding: 20px;
+    color: inherit;
+}

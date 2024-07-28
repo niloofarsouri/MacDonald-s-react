@@ -5,8 +5,6 @@ import Homepage from './components/homepage'
 import './bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css'
 import Layout from './components/layout';
 
-
-
 // const darkTheme = createTheme({
 //   palette: {
 //     mode: 'light',

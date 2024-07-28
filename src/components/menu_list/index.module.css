@@ -35,7 +35,7 @@ body ul li {
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    /* margin-top: -30px; */
+    align-items: baseline;
 }
 
 .main_all_nav img {

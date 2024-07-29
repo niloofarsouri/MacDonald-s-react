@@ -9,7 +9,8 @@ function MenuCard({ key, image, title }) {
 
             <a href="#">
                 <div className={styles.menucard}>
-                    <li key={key}><img src={image} />
+                    <li key={key}>
+                        <img src={image} />
                         <p>{title}</p>
                     </li>
                 </div>

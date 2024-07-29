@@ -1,5 +1,6 @@
 import Breakfast from '../breakfast';
 import Burgers from '../burgers';
+import Communication from '../communication';
 import Menulist from '../menu_list';
 import styles from './index.module.css'
 
@@ -51,6 +52,8 @@ function Homepage() {
                     of January 2022, unless stated otherwise.
                 </div>
             </section>
+
+            <Communication />
 
         </>
     )

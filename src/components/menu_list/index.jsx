@@ -133,7 +133,7 @@ function Menulist() {
                         <h1>McDonald's Menu</h1>
                         <h2>Featured Favorites</h2>
 
-                        <ul>
+                        <div className={styles.main_menu_card}>
                             {
                                 MENU_LIST.map(item => {
                                     return <MenuCard
@@ -143,7 +143,7 @@ function Menulist() {
                                     />
                                 })
                             }
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </section>

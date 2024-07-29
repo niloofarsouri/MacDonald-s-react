@@ -42,6 +42,14 @@ body ul li {
     margin-top: -20px;
 }
 
+/* .all_nav p {
+    flex: 1;
+}
+
+.all_nav img {
+    flex: 1;
+} */
+
 /* .all_nav {
     border-left: 1px black solid;
     border-right: 1px black solid;
@@ -113,20 +121,6 @@ body ul li {
 
 }
 
-.menu_list li {
-    width: 30%;
-}
-
-.menu_list img {
-    width: 180px;
-}
-
-
-.menu_list ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .menu_list h1 {
     text-align: center;
@@ -142,4 +136,21 @@ body ul li {
 
 .menu_list p {
     text-align: center;
+}
+
+
+.main_menu_card {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.main_menu_card img {
+    width: 80%;
+}
+
+.main_menu_card a {
+    width: 30%;
 }

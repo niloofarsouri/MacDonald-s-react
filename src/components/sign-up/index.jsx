@@ -31,7 +31,7 @@ function SignUp({ onToggleModal }) {
             <div className={styles.container}>
 
                 <div className={styles.main_signup}>
-                    <img src="./sign-up.png" />
+                    <img src="./sign-up-burger.jpg" />
 
                     <div className={styles.sub_main_input}>
                         <TextField

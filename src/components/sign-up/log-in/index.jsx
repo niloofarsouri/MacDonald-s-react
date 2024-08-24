@@ -1,9 +1,19 @@
 import styles from './index.module.css'
 import BackDrop from '../back-drop';
 import { TextField, Button } from '@mui/material';
+import { useContext } from 'react';
+import MacContext from '../../../context/context';
 
 
 function LogIn({ onToggleModal }) {
+
+
+    const { showModal, setShowModal } = useContext(MacContext)
+
+
+    // const handleCancel = () => {
+    //     setShowModal(!showModal)
+    // }
 
 
     return (
@@ -50,6 +60,7 @@ function LogIn({ onToggleModal }) {
 
                     <div className={styles.sub_main_btn}>
                         <Button variant='contained'>Sign up</Button>
+                        <Button variant='outlined' onClick={onToggleModal}>Cancel</Button>
                     </div>
 
                 </div>

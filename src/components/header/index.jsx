@@ -32,7 +32,7 @@ function Header() {
                             <div class={styles.top_items_left}>
                                 <a href="#">Language</a>
 
-                                <SignUp showModal={showModal} onToggleModal={handleToggleModal} />
+                                <SignUp onToggleModal={handleToggleModal} />
 
                                 <a href="#" onClick={handleToggleModal}>Sign Up For Email</a>
                                 <a href="#">Carees</a>

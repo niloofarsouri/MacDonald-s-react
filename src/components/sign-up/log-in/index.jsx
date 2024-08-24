@@ -8,13 +8,6 @@ import MacContext from '../../../context/context';
 function LogIn({ onToggleModal }) {
 
 
-    const { showModal, setShowModal } = useContext(MacContext)
-
-
-    // const handleCancel = () => {
-    //     setShowModal(!showModal)
-    // }
-
 
     return (
         <>
@@ -23,7 +16,7 @@ function LogIn({ onToggleModal }) {
             <div className={styles.container}>
 
                 <div className={styles.main_login}>
-                    <img src="./sign-up.png" />
+                    <img src="./sign-up-burger.jpg" />
 
                     <div className={styles.sub_main_input}>
 

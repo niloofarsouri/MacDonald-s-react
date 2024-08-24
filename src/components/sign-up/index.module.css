@@ -1,0 +1,45 @@
+.container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+    border-radius: 0.1rem;
+    box-shadow: 1px 1px 1px #eee;
+    transition: all 0.3s ease-out;
+    top: 10%;
+    left: 32%;
+}
+
+.main_signup {
+    width: 70%;
+    height: 90%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_signup img {
+    width: 10%;
+    margin: 1rem;
+}
+
+.sub_main_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.sub_main_btn {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}

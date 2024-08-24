@@ -4,32 +4,30 @@ import './App.css'
 import Homepage from './components/homepage'
 import './bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css'
 import Layout from './components/layout';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import MacContext from './context/context';
+import { useState } from 'react';
 
-// const darkTheme = createTheme({
-//   palette: {
-//     mode: 'light',
-//   },
-// });
 
 function App() {
+
+  const [showModal, setShowModal] = useState(false)
 
 
   return (
     <>
-      {/* <ThemeProvider theme={darkTheme}>
-        <CssBaseline />
-        <main>This app is using the dark mode</main> */}
 
+      <MacContext.Provider value={{ showModal, setShowModal }}>
+        <BrowserRouter>
+          <Layout>
+            <Routes>
+              <Route path='/' element={<Homepage />} />
+              {/* <Route path='/' /> */}
+            </Routes>
+          </Layout>
+        </BrowserRouter>
+      </MacContext.Provider>
 
-
-      <Layout>
-        <Homepage />
-      </Layout>
-
-
-
-
-      {/* </ThemeProvider > */}
     </>
   )
 }
